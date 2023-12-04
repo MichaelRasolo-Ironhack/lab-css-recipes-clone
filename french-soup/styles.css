@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url("./images/soup.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+section{
+width: 50vw;
+padding: 1rem 0;
+
+}
+
+ img {
+    height:3rem;
+}
+
+.prep-details{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px darkgray;
+}
+
+li {
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+h2, h1{
+    margin: 0;
+}
